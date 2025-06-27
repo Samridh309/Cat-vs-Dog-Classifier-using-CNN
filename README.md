@@ -10,7 +10,6 @@ A robust Convolutional Neural Network (CNN) solution for classifying images as c
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation & Requirements](#installation--requirements)
-- [Usage Guide](#usage-guide)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
 - [Web Demo](#web-demo)
@@ -22,7 +21,7 @@ A robust Convolutional Neural Network (CNN) solution for classifying images as c
 
 ## Project Overview
 
-This repository provides an end-to-end deep learning workflow for binary image classification (cat vs dog). It demonstrates data preprocessing, augmentation, model construction, evaluation, and deployment using Gradio for user-friendly real-time inference.
+This repository provides an end-to-end deep learning workflow for binary image classification (cat vs dog) using a dataset of 12,000 images (6,000 cats and 6,000 dogs). It demonstrates data preprocessing, augmentation, model construction, evaluation, and deployment using Gradio for user-friendly real-time inference.
 
 ---
 
@@ -80,8 +79,7 @@ This repository provides an end-to-end deep learning workflow for binary image c
 
 ## Web Demo
 
-After training, launch the Gradio interface in the notebook. A shareable link will be generated for real-time image classification.
-
+After training the model, launch the Gradio interface directly in the notebook. It generates a shareable link that I can use for real-time image classification.
 ---
 
 ## Acknowledgments
